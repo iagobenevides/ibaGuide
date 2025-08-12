@@ -36,7 +36,7 @@ git config --global user.email "seuemail@example.com"
 Tudo configurado, o início de um novo repositório é possível através do comando:
 
 ```sh
-git init
+git init -y
 ```
 
 Sempre que quiser saber o status do repositório:
