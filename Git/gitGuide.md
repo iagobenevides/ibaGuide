@@ -10,9 +10,9 @@ Ferramenta de gerenciamento de código completa, permitindo controle de versões
 É a ferramenta principal para comunicação entre qualquer repositório. Para isso, a instalação local é necessária, mesmo que IDEs como VSCode e Cursor conheçam os comandos.
 
 Para saber se a mesma já está instalada, execute o comando no terminal:
-'''sh
+```sh
 git --version
-'''
+```
 
 Caso não tenha instalado, acesse:
 [Site para download]
