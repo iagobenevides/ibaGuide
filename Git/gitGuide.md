@@ -17,23 +17,88 @@ git --version
 Caso não tenha instalado, acesse:
 [Site para download]
 
+Após instalação, o ideal é que se configure as informações que serão utilizadas de forma padrão, como o usuário e o e-mail:
 
-Conferir conta do repositório local
-git config user.name
-git config user.email
+Para conferir:
+
+```sh
 git config --global user.name
 git config --global user.email
+```
 
+Para realizar a alteração de forma global:
 
-Conferir repositório remoto
+```sh
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+```
+
+Tudo configurado, o início de um novo repositório é possível através do comando:
+
+```sh
+git init
+```
+
+Sempre que quiser saber o status do repositório:
+
+```sh
+git status
+```
+
+Para adição dos arquivos no repositório, incluindo todos os arquivos ou um específico:
+
+```sh
+git add .
+git add "arquivo"
+```
+
+Complementando sempre com um comentário após cada mudança:
+
+```sh
+git commit -m "comentario"
+```
+
+Com isso, é possível adicionar um repositório remoto:
+
+```sh
+git remote add origin (link)
+```
+
+E para fazer o upload pela primeira vez, já deixando a branch estabelecida:
+
+```sh
+git push -u origin main
+git push
+```
+
+E em caso de um upload específico para uma branch
+
+```sh
+git push origin main
+```
+
+Em um repositório já criado, pode-se conferir as informações de commit:
+
+```sh
+git config user.name
+git config user.email
+```
+
+Já para modificar apenas no repositório 'atual':
+
+```sh
+git config user.name "Seu Nome"
+git config user.email "seuemail@example.com"
+```
+
+Para conferir se o repositório remoto está correto e caso queira mudá-lo:
+
+```sh
 git remote -v
-
-Conferir configurações gerais da branch
+git remote set-url (link)
+```
+### Configurações gerais de branchs
 git remote show origin
-
-## GitHub
-
-## GitLab
 
 [//]: #
 [Site para download]: <https://git-scm.com/>
