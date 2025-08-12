@@ -35,5 +35,5 @@ git remote show origin
 
 ## GitLab
 
-Sites:
+[//]: #
 [Site para download]: <https://git-scm.com/>
