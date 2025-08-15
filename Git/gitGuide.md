@@ -98,6 +98,11 @@ git remote -v
 git remote set-url (link)
 ```
 ### Configurações gerais de branchs
+
+Mudar o nome da branch:
+
+git branch -M "nome"
+
 git remote show origin
 
 [//]: #
